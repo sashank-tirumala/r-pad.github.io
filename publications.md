@@ -185,7 +185,7 @@ Previous works have shown that differentiable physics simulators provide gradien
 
     <tr>
         <td class="pubimg" width="250" height="150" style="text-align:center">
-            <img src="../pics/sod_tgnn.gif" width="250">
+            <img src="../pics/sod_tgnn.jpg" width="250">
         </td>
         <td><a href="https://arxiv.org/pdf/2202.00182.pdf">Semi-supervised 3D Object Detection via Temporal Graph Neural Networks</a><br>
             <div class="pubauthor">Jianren Wang, Haiming Gang, Siddharth Ancha, Yi-Ting Chen, David Held<br>
