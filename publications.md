@@ -4,9 +4,10 @@ title: Publications
 subtitle: 
 ---
 
+Check out [this document](https://docs.google.com/document/d/1i3QrSpbLlRs28Q36Qig6iu1pL7XMSm0XzmdhTXJysk8/edit#) to see our research highlights! <br>
+Also, here is a [recent video](https://www.youtube.com/watch?v=YSj4cIFxvhc) (Dec 10, 2021) on some of our work. 
+
 <table cellpadding="10" width="100%">
-<<<<<<< Updated upstream
-=======
     <tr>
         <td class="pubimg" width="250" height="100" style="text-align:center">
             <img src="../pics/2022_diffskill.gif" img width="250">
@@ -484,7 +485,6 @@ year={2021}}</pre>
             <br>
         </td>
     </tr>
->>>>>>> Stashed changes
 
     <tr>
         <td class="pubimg" width="250" height="100">
@@ -562,10 +562,11 @@ year={2020}
     </tr>
 
     <tr>
-        <td class="pubimg" width="250" height="100">
-            <img src="../pics/corl2020_plas.png" img width="250">
+        <td class="pubimg" width="250" height="100" style="text-align: center">
+            <!--img src="../pics/corl2020_plas.png" img width="250"-->
+            <img src="../pics/cloth_sliding.gif" img height="100" style="text-align: center">
         </td>
-        <td><a href="https://arxiv.org/abs/2011.07213">Latent Action Space for Offline Reinforcement Learning</a><br>
+        <td><a href="https://arxiv.org/abs/2011.07213">PLAS: Latent Action Space for Offline Reinforcement Learning</a><br>
             <div class="pubauthor">
                 Wenxuan Zhou, Sujay Bajracharya, David Held<br>
             </div>
@@ -672,24 +673,25 @@ The goal of offline reinforcement learning is to learn a policy from a fixed dat
                     Most real-world 3D sensors such as LiDARs perform fixed scans of the entire environment, while being decoupled from the recognition system that processes the sensor data. In this work, we propose a method for 3D object recognition using light curtains, a resource-efficient controllable sensor that measures depth at user-specified locations in the environment. Crucially, we propose using prediction uncertainty of a deep learning based 3D point cloud detector to guide active perception. Given a neural network’s uncertainty, we derive an optimization objective to place light curtains using the principle of maximizing information gain. Then, we develop a novel and efficient optimization algorithm to maximize this objective by encoding the physical constraints of the device into a constraint graph and optimizing with dynamic programming. We show how a 3D detector can be trained to detect objects in a scene by sequentially placing uncertainty-guided light curtains to successively improve detection accuracy.
                 </blockquote>
             </div>
-            <div class="pubjournal">European Conference on Computer Vision (ECCV), 2020 - <award>Spotlight</award> (Selection rate 5.3%)
+            <div class="pubjournal">European Conference on Computer Vision (ECCV), 2020 - <award>Spotlight presentation</award> (Selection rate 5.3%)</div>
             <div style="font-size:small">
                 <a href="http://siddancha.github.io/projects/active-perception-light-curtains/">[Project Page]</a>
-                <a href="https://github.com/siddancha/active-perception-light-curtains">[Code]</a>
+                <a href="https://github.com/CMU-Light-Curtains/ObjectDetection">[Code]</a>
                 <a href="javascript:copy(div2020eccv, bib2020eccv)">[Bibtex]</a>
                 <a href="javascript:copy(div2020eccv, abs2020eccv)">[Abstract]</a>
                 <a href="https://arxiv.org/pdf/2008.02191.pdf">[PDF]</a>
+                <a href="https://www.youtube.com/watch?v=WSb5T3HFE7w">[Short Talk]</a>
+                <a href="https://www.youtube.com/watch?v=uRP63hHArU0">[Long Talk]</a>
                 <!-- <a href="GOTURN/supplement.pdf">[Supplement]</a> -->
             </div>
-            <div id="div2020eccv" class="pubInfo"></div>
-            
-            </div>
+            <div id="div2020eccv" class="pubInfo"></div>            
             <br>
         </td>
     </tr>
     <tr>
         <td class="pubimg" width="250" height="100">
-            <img src="../pics/iros2020_website_thumbnail.png" img width="250">
+            <!--img src="../pics/iros2020_website_thumbnail.png" img width="250"-->
+            <img src="../pics/cloth_grasping.gif" img width="250">
         </td>
         <td><a href="https://arxiv.org/abs/2008.05626">Cloth Region Segmentation for Robust Grasp Selection</a><br>
             <div class="pubauthor">
@@ -798,7 +800,7 @@ The goal of offline reinforcement learning is to learn a policy from a fixed dat
 <pre>@article{Weng2020_AB3DMOT, 
 author = {Weng, Xinshuo and Wang, Jianren and Held, David and Kitani, Kris}, 
 journal = {IROS}, 
-title = {{3D Multi-Object Tracking: A Baseline and New Evaluation Metrics}}, 
+title = {3D Multi-Object Tracking: A Baseline and New Evaluation Metrics}, 
 year = {2020} 
 }</pre>
                     </blockquote>
@@ -829,11 +831,38 @@ year = {2020}
             <div class="pubauthor">
                 Himangi Mittal, Brian Okorn, David Held<br>
             </div>
-            <div class="pubjournal">Conference on Computer Vision and Pattern Recognition (CVPR), 2020 - <award>Oral</award> (Selection rate 5.7%)
+            <div id="bib2020cvprflow" style="display:none">
+                    <blockquote>
+<pre>
+@InProceedings{Mittal_2020_CVPR,
+author = {Mittal, Himangi and Okorn, Brian and Held, David},
+title = {Just Go With the Flow: Self-Supervised Scene Flow Estimation},
+booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2020}
+} 
+</pre>
+                </blockquote>
+            </div>
+            <div id="abs2020cvprflow" style="display:none">
+                <blockquote>
+                     When interacting with highly dynamic environments, scene flow allows autonomous systems to reason about the non-rigid motion of multiple independent objects. This is of particular interest in the field of autonomous driving, in which many cars, people, bicycles, and other objects need to be accurately tracked. Current state-of-the-art methods require annotated scene flow data from autonomous driving scenes to train scene flow networks with supervised learning. As an alternative, we present a method of training scene flow that uses two self-supervised losses, based on nearest neighbors and cycle consistency. These self-supervised losses allow us to train our method on large unlabeled autonomous driving datasets; the resulting method matches current state-of-the-art supervised performance using no real world annotations and exceeds state-of-the-art performance when combining our self-supervised approach with supervised learning on a smaller labeled dataset.
+                </blockquote>
+            </div>
+            <div class="pubjournal">Conference on Computer Vision and Pattern Recognition (CVPR), 2020 - <award>Oral presentation</award> (Selection rate 5.7%)
+            <div style="font-size:small">
+                <a href="https://just-go-with-the-flow.github.io/">[Project Page]</a>
+                <a href="https://github.com/HimangiM/Just-Go-with-the-Flow-Self-Supervised-Scene-Flow-Estimation">[Code]</a>
+                <a href="javascript:copy(div2020cvprflow, bib2020cvprflow)">[Bibtex]</a>
+                <a href="javascript:copy(div2020cvprflow, abs2020cvprflow)">[Abstract]</a>
+                <a href="https://arxiv.org/pdf/1912.00497.pdf">[PDF]</a>
+                <!-- <a href="GOTURN/supplement.pdf">[Supplement]</a> -->
+            </div>
             <!--div style="font-size:small">
                 <a href="GOTURN/GOTURN.html">[Project Page]</a>
                 <a href="GOTURN/GOTURN.pdf">[Full Paper]</a>
                 <a href="GOTURN/supplement.pdf">[Supplement]</a></div-->
+                <div id="div2020cvprflow" class="pubInfo"></div>
             </div>
             <br>
         </td>
@@ -846,7 +875,7 @@ year = {2020}
             <div class="pubauthor">
                 Peiyun Hu, Jason Ziglar, David Held, Deva Ramanan<br>
             </div>
-            <div class="pubjournal">Conference on Computer Vision and Pattern Recognition (CVPR), 2020 - <award>Oral</award> (Selection rate 5.7%)</div>
+            <div class="pubjournal">Conference on Computer Vision and Pattern Recognition (CVPR), 2020 - <award>Oral presentation</award> (Selection rate 5.7%)</div>
             <!--div style="font-size:small">
                 <a href="GOTURN/GOTURN.html">[Project Page]</a>
                 <a href="GOTURN/GOTURN.pdf">[Full Paper]</a>
@@ -856,7 +885,8 @@ year = {2020}
     </tr>
     <tr>
         <td class="pubimg" width="250" height="100">
-            <img src="../pics/t3_cropped.png" img width="250">
+            <!--img src="../pics/t3_cropped.png" img width="250"-->
+            <img src="../pics/transparent_grasping.gif" img width="250">
         </td>
         <td><a href="https://arxiv.org/abs/2006.00028">Multi-Modal Transfer Learning for Grasping Transparent and Specular Objects</a><br>
             <div class="pubauthor">
