@@ -42,9 +42,6 @@ members:
           - name: Mansi Agrawal (MSR)
             photo_url: /img/members/mansi.jpg
             web_url: https://mansiagarwal11.github.io/
-          - name: Sashank Tirumala (MSR)
-            photo_url: /img/members/sashank.jpg
-            web_url: https://sashank-tirumala.github.io/
           - name: Bowen Jiang (MSR)
             photo_url: /img/members/bowenjiang.png
             web_url: https://www.ri.cmu.edu/ri-people/bowen-jiang-2/    
